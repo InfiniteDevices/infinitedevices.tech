@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /thankyou.html
+Disallow: /thankyou-subscriber.html
+Disallow: /terms.html
+Disallow: /privacy.html
+Disallow: /pricing.html
+
+Noindex: /thankyou.html
+Noindex: /thankyou-subscriber.html
+Noindex: /terms.html
+Noindex: /privacy.html
+Noindex: /pricing.html
