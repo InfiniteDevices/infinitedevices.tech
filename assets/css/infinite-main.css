@@ -190,7 +190,6 @@ p {
   right: 0px;
   margin: 0px;
   justify-content: flex-end;
-  padding-right: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
   -webkit-animation-name: fadeIn;
@@ -199,9 +198,14 @@ p {
 
 .modal {
   padding-right: 0px !important;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .modal-content {
   border-radius: 16px 16px 0px 0px !important;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
