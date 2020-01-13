@@ -3,12 +3,16 @@ Sitemap: https://www.infinitedevices.io/sitemap.xml
 
 Disallow: /thankyou.html
 Disallow: /thankyou-subscriber.html
+Disallow: /sad-to-see-you-go.html
 Disallow: /terms.html
 Disallow: /privacy.html
+Disallow: /cookie-policy.html
 Disallow: /pricing.html
 
 Noindex: /thankyou.html
 Noindex: /thankyou-subscriber.html
+Noindex: /sad-to-see-you-go.html
 Noindex: /terms.html
 Noindex: /privacy.html
+Noindex: /cookie-policy.html
 Noindex: /pricing.html
