@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://www.infinitedevices.io/articles/article-overview.html</loc>
+    </url>
+    <url>
+        <loc>https://www.infinitedevices.io/articles/Enabling-IoT-to-establish-a-sustainable-value-chain.html</loc>
+    </url>
+    <url>
+        <loc>https://www.infinitedevices.io/articles/iot-blockchain-stack-dweb.html</loc>
+    </url>
+    <url>
         <loc>https://www.infinitedevices.io/jobs/admin/Executive-Operations-Assistant.html</loc>
     </url>
     <url>
@@ -77,5 +86,8 @@
     </url>
     <url>
         <loc>https://www.infinitedevices.io/job-overview.html</loc>
+    </url>
+    <url>
+        <loc>https://www.infinitedevices.io/pricing.html</loc>
     </url>
 </urlset>
