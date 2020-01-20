@@ -205,12 +205,12 @@
         <section class="clean-block clean-faq dark">
             <div class="container" style="padding-bottom: 85px;">
                 <div class="block-heading">
-                    <h2 class="text-body">Quickstart manual</h2>
+                    <h2 class="text-left text-body">Quickstart manual</h2>
                 </div>
                 <div class="block-content">
                     <div id="install_cli" class="faq-item">
-                        <h1 class="question" style="font-size: 24px;"><strong>Connect, send and retrieve data</strong></h1>
-                        <h3 class="question" style="font-size: 20px;"><strong>Install the CLI</strong></h3>
+                        <h1 class="text-left question" style="font-size: 24px;"><strong>Connect, send and retrieve data</strong></h1>
+                        <h3 class="text-left question" style="font-size: 20px;"><strong>Install the CLI</strong></h3>
                         <div class="answer">
                             <p>infinimesh features a CLI to interact with our API. Install it automatically with our install script:<br></p>
                             <p class="text-break" style="font-family: 'Cutive Mono', monospace;background-color: #f5f5f5;">curl https://raw.githubusercontent.com/infinimesh/infinimesh/master/godownloader.sh | BINDIR=$HOME/bin bash</p>
@@ -220,7 +220,7 @@
                                 password, this requests a token from the API server - your username and password is <strong>NOT </strong>stored - we take security very seriously.<br></p>
                         </div>
                         <div id="create_device" class="faq-item">
-                            <h4 class="question" style="font-size: 20px;"><strong>Creating a device identity</strong></h4>
+                            <h4 class="text-left question" style="font-size: 20px;"><strong>Creating a device identity</strong></h4>
                             <div class="answer">
                                 <p>To get started, we will create a device. Please note,<strong> every device needs to have an own certificate</strong>. At present, infinimesh supports only <strong>X509 certificate</strong> authentication for devices. Generate
                                     a private key for the device:</p>
@@ -230,7 +230,7 @@
                             </div>
                         </div>
                         <div id="authorize_device" class="faq-item">
-                            <h4 class="question" style="font-size: 20px;">Authorize your new created device with infinimesh IoT</h4>
+                            <h4 class="text-left question" style="font-size: 20px;">Authorize your new created device with infinimesh IoT</h4>
                             <div class="answer">
                                 <p>A namespace for your user will be automatically created - the name of the namespace is your username. To show the namespace(s) use the list command:</p>
                                 <p style="font-family: 'Cutive Mono', monospace;background-color: #f5f5f5;">inf namespace list<br></p>
@@ -242,7 +242,7 @@
                             </div>
                         </div>
                         <div id="send_data_mqtt" class="faq-item">
-                            <h4 class="question" style="font-size: 20px;"><strong>Send data from a device to infinimesh</strong></h4>
+                            <h4 class="text-left question" style="font-size: 20px;"><strong>Send data from a device to infinimesh</strong></h4>
                             <div class="answer">
                                 <p>To simulate a device, we use the <em>mosquitto_pub</em> client. You can use any MQTT client, e.g. <em>Eclipse paho</em> as well as <em>Microsoft Edge</em> on RaspberryPI, <em>Yocto MQTT</em> layers or <em>Ubuntu Core</em>                                    based snaps. We use sometimes <em>MQTTBox&nbsp;</em> (<a class="text-break" href="http://workswithweb.com/html/mqttbox/installing_apps.html" target="_blank">http://workswithweb.com/html/mqttbox/installing_apps.html</a>)
                                     to demonstrate and test.</p>
@@ -257,7 +257,7 @@
                             </div>
                         </div>
                         <div id="retrieve_data_mqtt" class="faq-item">
-                            <h4 class="question" style="font-size: 20px;"><strong>Read device data from the platform</strong><br></h4>
+                            <h4 class="text-left question" style="font-size: 20px;"><strong>Read device data from the platform</strong><br></h4>
                             <div class="answer">
                                 <p>We managed to send data from a device to the platform. Now let's read back the device data from infinimesh! You can do this via gRPC or HTTP API. The simplest way is with the CLI (which uses gRPC).</p>
                                 <p style="font-family: 'Cutive Mono', monospace;background-color: #f5f5f5;">inf state get 0x8a<br></p>
@@ -267,7 +267,7 @@
                             </div>
                         </div>
                         <div id="send_data_to_device" class="faq-item">
-                            <h4 class="question" style="font-size: 20px;"><strong>Send states from the platform to the device</strong><br></h4>
+                            <h4 class="text-left question" style="font-size: 20px;"><strong>Send states from the platform to the device</strong><br></h4>
                             <div class="answer">
                                 <p>Sending states (desired states) to a device is very simple. You only need to know the deviceID. Use the API, or just the CLI.</p>
                                 <p style="font-family: 'Cutive Mono', monospace;background-color: #f5f5f5;">inf state set 0x8a test_works<br></p>
@@ -279,7 +279,7 @@
                             </div>
                         </div>
                         <div id="thank_you" class="faq-item">
-                            <h4 class="question" style="font-size: 20px;"><strong>Thank you</strong><br></h4>
+                            <h4 class="text-left question" style="font-size: 20px;"><strong>Thank you</strong><br></h4>
                             <div class="answer">
                                 <p>Many thanks for your time and if you have any questions don't hesitate to get in touch with us! We are grateful for any improvements to the platform or this documentation, just send us a PR.<br></p>
                             </div>
