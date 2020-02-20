@@ -13,6 +13,9 @@
         <loc>https://www.infinitedevices.io/de/impressum.html</loc>
     </url>
     <url>
+        <loc>https://www.infinitedevices.io/de/privacy-de.html</loc>
+    </url>
+    <url>
         <loc>https://www.infinitedevices.io/jobs/admin/Executive-Operations-Assistant.html</loc>
     </url>
     <url>
@@ -73,6 +76,9 @@
         <loc>https://www.infinitedevices.io/contact-us.html</loc>
     </url>
     <url>
+        <loc>https://www.infinitedevices.io/cookie-policy.html</loc>
+    </url>
+    <url>
         <loc>https://www.infinitedevices.io/diversity.html</loc>
     </url>
     <url>
@@ -98,5 +104,20 @@
     </url>
     <url>
         <loc>https://www.infinitedevices.io/pricing.html</loc>
+    </url>
+    <url>
+        <loc>https://www.infinitedevices.io/privacy.html</loc>
+    </url>
+    <url>
+        <loc>https://www.infinitedevices.io/sad-to-see-you-go.html</loc>
+    </url>
+    <url>
+        <loc>https://www.infinitedevices.io/terms.html</loc>
+    </url>
+    <url>
+        <loc>https://www.infinitedevices.io/thankyou.html</loc>
+    </url>
+    <url>
+        <loc>https://www.infinitedevices.io/thankyou-subscriber.html</loc>
     </url>
 </urlset>
