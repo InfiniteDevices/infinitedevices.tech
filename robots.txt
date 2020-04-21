@@ -7,7 +7,6 @@ Disallow: /sad-to-see-you-go.html
 Disallow: /terms.html
 Disallow: /privacy.html
 Disallow: /cookie-policy.html
-Disallow: /pricing.html
 
 Noindex: /thankyou.html
 Noindex: /thankyou-subscriber.html
